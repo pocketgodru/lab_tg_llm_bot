@@ -10,8 +10,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Переменные окружения по умолчанию
-ENV TELEGRAM_BOT_TOKEN=""
-ENV MISTRAL_API_KEY=""
 ENV MISTRAL_MODEL="mistral-small-latest"
 ENV LOG_LEVEL="INFO"
 
